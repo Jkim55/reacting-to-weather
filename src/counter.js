@@ -1,5 +1,5 @@
 import React from 'react';
- 
+
 /**
  * A counter button: tap the button to increase the count.
  */
@@ -10,7 +10,7 @@ class Counter extends React.Component {
       count: 0,
     };
   }
- 
+
   render() {
     return (
       <button
@@ -24,13 +24,3 @@ class Counter extends React.Component {
   }
 }
 export default Counter;
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Counter from './Counter';
- 
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(
-    React.createElement(Counter),
-    document.getElementById('mount')
-  );
-});
